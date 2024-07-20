@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Weather Forecast</h1>
+    <div class="SearchBar">
+        <input type="text" id="locationInput" placeholder="Enter location...">
+        <button onclick="getWeather()">Search</button>
+    </div>
+    <div class="GeneralInfo">
+        <h2 class="location">Location</h2>
+        <h2 class="month">Month</h2>
+    </div>
+    <div class="Days">
+        <div class="Day" id="day1">
+            <h2 class="day">Day1</h2>
+            <h3 class="conditions">Conditions</h3>
+            <h3 class="temp">Temperature</h3>
+            <h3 class="wind">Wind</h3>
+            <h3 class="precipitation">Precipitation</h3>
+        </div>
+        <div class="Day" id="day2">
+            <h2 class="day">Day2</h2>
+            <h3 class="conditions">Conditions</h3>
+            <h3 class="temp">Temperature</h3>
+            <h3 class="wind">Wind</h3>
+            <h3 class="precipitation">Precipitation</h3>
+        </div>
+        <div class="Day" id="day3">
+            <h2 class="day">Day3</h2>
+            <h3 class="conditions">Conditions</h3>
+            <h3 class="temp">Temperature</h3>
+            <h3 class="wind">Wind</h3>
+            <h3 class="precipitation">Precipitation</h3>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
